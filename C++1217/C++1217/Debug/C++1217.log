@@ -1,0 +1,18 @@
+﻿生成启动时间为 2019/12/17 22:44:31。
+     1>项目“c:\Users\my\documents\visual studio 2013\Projects\C++1217\C++1217\C++1217.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         G:\Microsoft Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt account.cpp main.cpp
+         main.cpp
+     1>c:\users\my\documents\visual studio 2013\projects\c++1217\c++1217\account.h(24): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+         account.cpp
+     1>c:\users\my\documents\visual studio 2013\projects\c++1217\c++1217\account.h(24): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+         正在生成代码...
+       Link:
+         G:\Microsoft Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\my\documents\visual studio 2013\Projects\C++1217\Debug\C++1217.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\my\documents\visual studio 2013\Projects\C++1217\Debug\C++1217.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\my\documents\visual studio 2013\Projects\C++1217\Debug\C++1217.lib" /MACHINE:X86 Debug\account.obj
+         Debug\main.obj
+         C++1217.vcxproj -> c:\users\my\documents\visual studio 2013\Projects\C++1217\Debug\C++1217.exe
+     1>已完成生成项目“c:\Users\my\documents\visual studio 2013\Projects\C++1217\C++1217\C++1217.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.54
