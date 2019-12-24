@@ -1,101 +1,70 @@
-﻿生成启动时间为 2019/12/23 22:20:07。
+﻿生成启动时间为 2019/12/24 22:25:05。
      1>项目“F:\VS2013Projects\超市商品管理系统设计\超市商品管理系统设计\超市商品管理系统设计.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          G:\Microsoft Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源1.cpp"
          源1.cpp
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(147): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(159): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(215): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(167): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(238): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(322): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(442): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(328): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(469): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(338): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(496): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(344): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(296): warning C4101: “kind”: 未引用的局部变量
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(369): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(375): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(390): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(396): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(411): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(417): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(432): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(438): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(453): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(459): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(474): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(480): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(495): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(501): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(516): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(522): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(537): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(543): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(542): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(546): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
      1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(558): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
      1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(564): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(583): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(504): warning C4101: “i”: 未引用的局部变量
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(585): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(589): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(591): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(610): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(619): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(613): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(622): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(626): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(629): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(635): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(638): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(644): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(646): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 g:\microsoft visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
      1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(647): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(652): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(649): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(654): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(650): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(656): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(655): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
      1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(657): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(662): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(659): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(664): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(660): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(666): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(665): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
      1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(667): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(672): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(669): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(718): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(670): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\microsoft visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(675): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\microsoft visual studio 2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(730): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(745): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(760): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
-     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(772): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(790): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(821): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
+     1>f:\vs2013projects\超市商品管理系统设计\超市商品管理系统设计\源1.cpp(838): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  g:\microsoft visual studio 2013\vc\include\conio.h(131) : 参见“getch”的声明
        Link:
          G:\Microsoft Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2013Projects\超市商品管理系统设计\Debug\超市商品管理系统设计.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\VS2013Projects\超市商品管理系统设计\Debug\超市商品管理系统设计.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS2013Projects\超市商品管理系统设计\Debug\超市商品管理系统设计.lib" /MACHINE:X86 "Debug\源.obj"
@@ -105,4 +74,4 @@
 
 生成成功。
 
-已用时间 00:00:00.76
+已用时间 00:00:00.83
