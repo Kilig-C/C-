@@ -18,13 +18,7 @@
     <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="二叉链表.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="线索二叉树.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="赫夫曼.cpp">
+    <ClCompile Include="源1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
