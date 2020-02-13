@@ -78,6 +78,7 @@
   <ItemGroup>
     <ClCompile Include="源.cpp" />
     <ClCompile Include="源1.cpp" />
+    <ClCompile Include="迪杰斯特拉.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
