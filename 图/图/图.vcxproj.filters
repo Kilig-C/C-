@@ -24,5 +24,11 @@
     <ClCompile Include="迪杰斯特拉.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="弗洛伊德.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="拓扑排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

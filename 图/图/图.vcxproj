@@ -76,6 +76,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="弗洛伊德.cpp" />
+    <ClCompile Include="拓扑排序.cpp" />
     <ClCompile Include="源.cpp" />
     <ClCompile Include="源1.cpp" />
     <ClCompile Include="迪杰斯特拉.cpp" />
