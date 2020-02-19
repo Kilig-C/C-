@@ -76,6 +76,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="斐波那契查找.cpp" />
+    <ClCompile Include="有序查找.cpp" />
     <ClCompile Include="顺序查找.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
