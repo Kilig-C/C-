@@ -1,6 +1,100 @@
 #define LH +1	/* 左高 */
 #define EH 0	/* 等高 */
 #define RH -1	/* 右高 */
+#define TRUE 1
+#define FALSE 0
+typedef int Status; //创建子函数返回类型 
+/* 若在平衡的二叉排序树T中不存在和e有相同关键字的结点，则插入一个 */ 
+/* 数据元素为 e 的新结点并返回 1 ,否则返回 0 。若因插入而使二叉排序树 */ 
+/* 失去平衡，则作平衡旋转处理，布尔变量 taller 反映 T 长高与否。*/
+Status InsertAVL(BiTree *T, int e, Status *taller)
+{
+	if (!*T)
+	{
+		/* 插入新结点，树“长高”，置 taller 为 TRUE */
+		*T = (BiTree)malloc(sizeof(BiTNode));
+		(*T)->data = e;
+		(*T)->lchild = (*T)->rchild = NULL;
+		(*T)->bf = EH;
+		*taller = TRUE;
+	}
+	else
+	{
+		if (e == (*T)->data)
+		{
+			/* 树中已存在和 e 有相同关键字的结点则不再插入 */
+			*taller = FALSE;
+			return FALSE;
+		}
+		if (e < (*T)->data)
+		{
+			/* 应继续在 T 的左子树中进行搜索 */
+			if (!InsertAVL(&(*T>->lchild, e, taller))  /* 未插入 */
+			{
+				return FALSE;
+			}
+			if (taller) /* 已插入到 T 的左子树中且左子树“长高” */
+			{
+				switch ((*T)->bf) /* 检查 T 的平衡度 */
+				{
+				case LH: /* 原本左子树比右子树高，需要作左平衡处理 */
+					LeftBalance(T);
+					*taller = FALSE;
+					break;
+				case EH: /* 原本左右子树等高，现因左子树增高而树增高 */
+					(*T)->bf = LH;
+					*taller = TRUE;
+					break;
+				case RH: /* 原本右子树比左子树高，现左右子树等高 */
+					(*T)->bf = EH;
+					*taller = FALSE;
+					break;
+				}
+			}
+		}
+		else
+		{
+			/* 应继续在 T 的右子树中进行搜索 */
+			if (!InsertAVL(&(*T)->rchild, e, taller)) /* 未插入 */
+			{
+				return FALSE;
+			}
+			if (*taller) /* 已插入到 T 的右子树且右子树“长高” */
+			{
+				switch ((*T)->bf) /* 检查 T 的平衡度 */
+				{
+				case	LH: /* 原本左子树比右子树高，现左、右子树等高 */
+					(*T)->bf = EH;
+					*taller = FALSE;
+					break;
+				case	EH: /* 原本左右子树等高，现因右子树增高而树增高 */
+					(*T)->bf = RH;
+					*taller = TRUE;
+					break;
+				case	RH: /* 原本右子树比左子树高，需要作右平衡处理 */
+					RightBalance(T);
+					*taller = FALSE;
+					break;
+				}
+			}
+		}
+	}
+	return TRUE;
+}
+
+int i;
+int a[10] = { 3, 2, 1, 4, 5, 6, 7, 10, 9, 8 };
+BiTree T = NULL;
+Status taller;
+for (i = 0; i<10; i++)
+{
+	InsertAVL(&T, a[i], &taller);
+}
+
+
+#define LH +1	/* 左高 */
+#define EH 0	/* 等高 */
+#define RH -1	/* 右高 */
 /* 对以指针 T 所指结点为根的二叉树作左平衡旋转处理 */
 /* 本算法结束时，指针 T 指向新的根结点 */
 void LeftBalance(BiTree *T)
