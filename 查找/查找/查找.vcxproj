@@ -80,6 +80,7 @@
     <ClCompile Include="二叉排序树插入操作.cpp" />
     <ClCompile Include="二叉排序树查找操作.cpp" />
     <ClCompile Include="平衡二叉树实现算法.cpp" />
+    <ClCompile Include="散列表查找实现.cpp" />
     <ClCompile Include="斐波那契查找.cpp" />
     <ClCompile Include="有序查找.cpp" />
     <ClCompile Include="递归对二叉排序树 T 查找 key.cpp" />

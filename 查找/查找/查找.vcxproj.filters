@@ -39,5 +39,8 @@
     <ClCompile Include="平衡二叉树实现算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="散列表查找实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
