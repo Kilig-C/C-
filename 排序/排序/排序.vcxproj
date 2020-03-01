@@ -77,6 +77,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="冒泡排序.cpp" />
+    <ClCompile Include="希尔排序.cpp" />
+    <ClCompile Include="直接插入排序.cpp" />
     <ClCompile Include="顺序表结构.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
