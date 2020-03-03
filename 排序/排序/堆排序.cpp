@@ -13,13 +13,14 @@ void HeapSort(SqList *L)
 	}
 }
 
+
 /* 已知 L->r[s..m] 中记录的关键字除 L->r[s] 之外均满足堆的定义 */
 /* 本函数调整 L->r[s] 的关键字，使 L->r[s..m] 成为一个大顶堆 */
 void HeapAdjust(SqList *L, int s, int m)
 {
 	int temp, j;
-	temp = L->r(s];
-	for (j = 2 * s; j < ssm; j *= 2)	/* 沿关键字较大的孩子结点向下筛选 */
+	temp = L->r[s];
+	for (j = 2*s; j <= m; j *= 2)	/* 沿关键字较大的孩子结点向下筛选 */
 	{
 		if (j < m && L->r[j] <L->r[j + 1])
 		{
@@ -40,3 +41,5 @@ for (i = L->length; i > l; i--)
 	swap(L, 1, i);/* 将堆顶记录和当前未经排序子序列的最后一个记录交换 */
 	HeapAdjust(L, 1, i - 1); /* 将 L->r[l. .i-l]重新调整为大顶堆 */
 }
+
+
