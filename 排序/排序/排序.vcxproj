@@ -80,6 +80,7 @@
     <ClCompile Include="堆排序.cpp" />
     <ClCompile Include="希尔排序.cpp" />
     <ClCompile Include="归并排序.cpp" />
+    <ClCompile Include="快速排序.cpp" />
     <ClCompile Include="直接插入排序.cpp" />
     <ClCompile Include="顺序表结构.cpp" />
   </ItemGroup>
